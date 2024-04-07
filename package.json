@@ -1,0 +1,27 @@
+{
+  "name": "restapi-expressjs",
+  "version": "1.0.0",
+  "description": "A tutorial for REST APIs in NodeJS & ExpressJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batugkocak/ExpressJS-Introduction-to-RestAPI.git"
+  },
+  "author": "Batuğ Koçak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batugkocak/ExpressJS-Introduction-to-RestAPI/issues"
+  },
+  "homepage": "https://github.com/batugkocak/ExpressJS-Introduction-to-RestAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
